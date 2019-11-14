@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B4051320237DA52800F8F922 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = B405131F237DA52800F8F922 /* main.c */; };
 		B48C7B0823784D5200C50104 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = B48C7B0723784D5200C50104 /* main.c */; };
 		B48C7B1523784D8D00C50104 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = B48C7B1423784D8D00C50104 /* main.c */; };
 		B48C7B2023784DAB00C50104 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = B48C7B1F23784DAB00C50104 /* main.c */; };
@@ -16,6 +17,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		B405131B237DA52800F8F922 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		B48C7B0223784D5200C50104 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -73,6 +83,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B405131D237DA52800F8F922 /* 8逗号运算符 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "8逗号运算符"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B405131F237DA52800F8F922 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		B48C7B0423784D5200C50104 /* day3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = day3; sourceTree = BUILT_PRODUCTS_DIR; };
 		B48C7B0723784D5200C50104 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		B48C7B1223784D8D00C50104 /* 3算术运算符的优先级和结合性 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "3算术运算符的优先级和结合性"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -88,6 +100,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		B405131A237DA52800F8F922 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B48C7B0123784D5200C50104 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -133,6 +152,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B405131E237DA52800F8F922 /* 8逗号运算符 */ = {
+			isa = PBXGroup;
+			children = (
+				B405131F237DA52800F8F922 /* main.c */,
+			);
+			path = "8逗号运算符";
+			sourceTree = "<group>";
+		};
 		B48C7AFB23784D5200C50104 = {
 			isa = PBXGroup;
 			children = (
@@ -142,6 +169,7 @@
 				B48C7B2923784DB600C50104 /* 5赋值运算符 */,
 				B4E63807237C492700F3CE08 /* 6自增自减 */,
 				B4E63812237C517800F3CE08 /* 7sizeof运算符 */,
+				B405131E237DA52800F8F922 /* 8逗号运算符 */,
 				B48C7B0523784D5200C50104 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -155,6 +183,7 @@
 				B48C7B2823784DB600C50104 /* 5赋值运算符 */,
 				B4E63806237C492700F3CE08 /* 6自增自减 */,
 				B4E63811237C517800F3CE08 /* 7sizeof运算符 */,
+				B405131D237DA52800F8F922 /* 8逗号运算符 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -210,6 +239,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		B405131C237DA52800F8F922 /* 8逗号运算符 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4051321237DA52800F8F922 /* Build configuration list for PBXNativeTarget "8逗号运算符" */;
+			buildPhases = (
+				B4051319237DA52800F8F922 /* Sources */,
+				B405131A237DA52800F8F922 /* Frameworks */,
+				B405131B237DA52800F8F922 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "8逗号运算符";
+			productName = "8逗号运算符";
+			productReference = B405131D237DA52800F8F922 /* 8逗号运算符 */;
+			productType = "com.apple.product-type.tool";
+		};
 		B48C7B0323784D5200C50104 /* day3 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B48C7B0B23784D5200C50104 /* Build configuration list for PBXNativeTarget "day3" */;
@@ -321,6 +367,9 @@
 				LastUpgradeCheck = 1120;
 				ORGANIZATIONNAME = "Shannon MYang";
 				TargetAttributes = {
+					B405131C237DA52800F8F922 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
 					B48C7B0323784D5200C50104 = {
 						CreatedOnToolsVersion = 11.2;
 					};
@@ -360,11 +409,20 @@
 				B48C7B2723784DB600C50104 /* 5赋值运算符 */,
 				B4E63805237C492700F3CE08 /* 6自增自减 */,
 				B4E63810237C517800F3CE08 /* 7sizeof运算符 */,
+				B405131C237DA52800F8F922 /* 8逗号运算符 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		B4051319237DA52800F8F922 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4051320237DA52800F8F922 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B48C7B0023784D5200C50104 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -416,6 +474,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		B4051322237DA52800F8F922 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B4051323237DA52800F8F922 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		B48C7B0923784D5200C50104 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -624,6 +698,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		B4051321237DA52800F8F922 /* Build configuration list for PBXNativeTarget "8逗号运算符" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4051322237DA52800F8F922 /* Debug */,
+				B4051323237DA52800F8F922 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B48C7AFF23784D5200C50104 /* Build configuration list for PBXProject "day3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
