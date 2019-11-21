@@ -10,6 +10,8 @@
 		B4051320237DA52800F8F922 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = B405131F237DA52800F8F922 /* main.c */; };
 		B405132B2385818000F8F922 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = B405132A2385818000F8F922 /* main.c */; };
 		B40513362385894900F8F922 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = B40513352385894900F8F922 /* main.c */; };
+		B405134C2386DA8B00F8F922 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = B405134B2386DA8B00F8F922 /* main.c */; };
+		B40513622386DC1F00F8F922 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = B40513612386DC1F00F8F922 /* main.c */; };
 		B48C7B0823784D5200C50104 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = B48C7B0723784D5200C50104 /* main.c */; };
 		B48C7B1523784D8D00C50104 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = B48C7B1423784D8D00C50104 /* main.c */; };
 		B48C7B2023784DAB00C50104 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = B48C7B1F23784DAB00C50104 /* main.c */; };
@@ -38,6 +40,24 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		B40513312385894900F8F922 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		B40513472386DA8B00F8F922 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		B405135D2386DC1F00F8F922 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -109,6 +129,10 @@
 		B405132A2385818000F8F922 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		B40513332385894900F8F922 /* 10逻辑运算符 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "10逻辑运算符"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B40513352385894900F8F922 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		B40513492386DA8B00F8F922 /* 11三目运算符 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "11三目运算符"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B405134B2386DA8B00F8F922 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		B405135F2386DC1F00F8F922 /* 12if基本概念 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "12if基本概念"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B40513612386DC1F00F8F922 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		B48C7B0423784D5200C50104 /* day3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = day3; sourceTree = BUILT_PRODUCTS_DIR; };
 		B48C7B0723784D5200C50104 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		B48C7B1223784D8D00C50104 /* 3算术运算符的优先级和结合性 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "3算术运算符的优先级和结合性"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -139,6 +163,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		B40513302385894900F8F922 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B40513462386DA8B00F8F922 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B405135C2386DC1F00F8F922 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -214,6 +252,22 @@
 			path = "10逻辑运算符";
 			sourceTree = "<group>";
 		};
+		B405134A2386DA8B00F8F922 /* 11三目运算符 */ = {
+			isa = PBXGroup;
+			children = (
+				B405134B2386DA8B00F8F922 /* main.c */,
+			);
+			path = "11三目运算符";
+			sourceTree = "<group>";
+		};
+		B40513602386DC1F00F8F922 /* 12if基本概念 */ = {
+			isa = PBXGroup;
+			children = (
+				B40513612386DC1F00F8F922 /* main.c */,
+			);
+			path = "12if基本概念";
+			sourceTree = "<group>";
+		};
 		B48C7AFB23784D5200C50104 = {
 			isa = PBXGroup;
 			children = (
@@ -226,6 +280,8 @@
 				B405131E237DA52800F8F922 /* 8逗号运算符 */,
 				B40513292385818000F8F922 /* 9关系运算符 */,
 				B40513342385894900F8F922 /* 10逻辑运算符 */,
+				B405134A2386DA8B00F8F922 /* 11三目运算符 */,
+				B40513602386DC1F00F8F922 /* 12if基本概念 */,
 				B48C7B0523784D5200C50104 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -242,6 +298,8 @@
 				B405131D237DA52800F8F922 /* 8逗号运算符 */,
 				B40513282385817F00F8F922 /* 9关系运算符 */,
 				B40513332385894900F8F922 /* 10逻辑运算符 */,
+				B40513492386DA8B00F8F922 /* 11三目运算符 */,
+				B405135F2386DC1F00F8F922 /* 12if基本概念 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -346,6 +404,40 @@
 			name = "10逻辑运算符";
 			productName = "10逻辑运算符";
 			productReference = B40513332385894900F8F922 /* 10逻辑运算符 */;
+			productType = "com.apple.product-type.tool";
+		};
+		B40513482386DA8B00F8F922 /* 11三目运算符 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B405134D2386DA8B00F8F922 /* Build configuration list for PBXNativeTarget "11三目运算符" */;
+			buildPhases = (
+				B40513452386DA8B00F8F922 /* Sources */,
+				B40513462386DA8B00F8F922 /* Frameworks */,
+				B40513472386DA8B00F8F922 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "11三目运算符";
+			productName = "11三目运算符";
+			productReference = B40513492386DA8B00F8F922 /* 11三目运算符 */;
+			productType = "com.apple.product-type.tool";
+		};
+		B405135E2386DC1F00F8F922 /* 12if基本概念 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B40513632386DC1F00F8F922 /* Build configuration list for PBXNativeTarget "12if基本概念" */;
+			buildPhases = (
+				B405135B2386DC1F00F8F922 /* Sources */,
+				B405135C2386DC1F00F8F922 /* Frameworks */,
+				B405135D2386DC1F00F8F922 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "12if基本概念";
+			productName = "12if基本概念";
+			productReference = B405135F2386DC1F00F8F922 /* 12if基本概念 */;
 			productType = "com.apple.product-type.tool";
 		};
 		B48C7B0323784D5200C50104 /* day3 */ = {
@@ -468,6 +560,12 @@
 					B40513322385894900F8F922 = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
+					B40513482386DA8B00F8F922 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					B405135E2386DC1F00F8F922 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
 					B48C7B0323784D5200C50104 = {
 						CreatedOnToolsVersion = 11.2;
 					};
@@ -510,6 +608,8 @@
 				B405131C237DA52800F8F922 /* 8逗号运算符 */,
 				B40513272385817F00F8F922 /* 9关系运算符 */,
 				B40513322385894900F8F922 /* 10逻辑运算符 */,
+				B40513482386DA8B00F8F922 /* 11三目运算符 */,
+				B405135E2386DC1F00F8F922 /* 12if基本概念 */,
 			);
 		};
 /* End PBXProject section */
@@ -536,6 +636,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				B40513362385894900F8F922 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B40513452386DA8B00F8F922 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B405134C2386DA8B00F8F922 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B405135B2386DC1F00F8F922 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B40513622386DC1F00F8F922 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -631,6 +747,38 @@
 			name = Debug;
 		};
 		B40513392385894900F8F922 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B405134E2386DA8B00F8F922 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B405134F2386DA8B00F8F922 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B40513642386DC1F00F8F922 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B40513652386DC1F00F8F922 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -869,6 +1017,24 @@
 			buildConfigurations = (
 				B40513382385894900F8F922 /* Debug */,
 				B40513392385894900F8F922 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B405134D2386DA8B00F8F922 /* Build configuration list for PBXNativeTarget "11三目运算符" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B405134E2386DA8B00F8F922 /* Debug */,
+				B405134F2386DA8B00F8F922 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B40513632386DC1F00F8F922 /* Build configuration list for PBXNativeTarget "12if基本概念" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B40513642386DC1F00F8F922 /* Debug */,
+				B40513652386DC1F00F8F922 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
