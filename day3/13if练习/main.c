@@ -257,6 +257,21 @@ int main(int argc, const char * argv[]) {
     printf("交换后: a = %i, b = %i \n", a, b);
     */
    // 4.1 利用number1和number2进行比较，如果number1小于number2，交换两个变量的值；
-
+    if (number1 < number2) {
+        int temp = number1;
+        number1 = number2;
+        number2 = temp;
+    }
+    if (number1 < number3) {
+        int temp = number1;
+        number1 = number3;
+        number3 = temp;
+    }
+    if (number2 < number3) {
+        int temp = number2;
+        number2 = number3;
+        number3 = temp;
+    }
+    printf("%i,%i,%i\n", number1, number2, number3);
     return 0;
 }
