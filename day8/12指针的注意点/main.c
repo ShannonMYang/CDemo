@@ -2,14 +2,13 @@
 //  main.c
 //  12指针的注意点
 //
-//  Created by Shannon MYang on 2019/12/05.
+//  Created by Shannon MYang on 2019/12/5.
 //  Copyright © 2019 Shannon MYang. All rights reserved.
 //
 
 #include <stdio.h>
 
-
-int main(int argc, const char* argv[]) {
+int main(int argc, const char * argv[]) {
     // 1. 指针只能保存地址；
     /*
     // 下面是错误示例：
@@ -65,5 +64,5 @@ int main(int argc, const char* argv[]) {
     //int* p = &doubleValue;
     //printf("%lf \n", *p);
     
-    return 0; 
+    return 0;
 }

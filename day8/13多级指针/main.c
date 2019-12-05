@@ -2,7 +2,7 @@
 //  main.c
 //  13多级指针
 //
-//  Created by Shannon MYang on 2019/12/05.
+//  Created by Shannon MYang on 2019/12/5.
 //  Copyright © 2019 Shannon MYang. All rights reserved.
 //
 
@@ -12,14 +12,11 @@ void demo1();
 void demo2();
 void demo3();
 
-int main(int argc, const char* argv[]) {
+int main(int argc, const char * argv[]) {
     //demo1();
-    
     //demo2();
-
     demo3();
-    
-    return 0; 
+    return 0;
 }
 
 // 一级指针

@@ -4,10 +4,35 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>9指针基本概念.xcscheme_^#shared#^_</key>
+		<key>10指针练习1.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>2</integer>
+		</dict>
+		<key>11指针练习2.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>12指针的注意点.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>13多级指针.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>14指针为什么要分类型.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+		<key>9指针基本概念.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
 		</dict>
 		<key>9指针的基本概念.xcscheme_^#shared#^_</key>
 		<dict>
@@ -17,7 +42,7 @@
 		<key>day8.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>0</integer>
 		</dict>
 	</dict>
 </dict>

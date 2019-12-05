@@ -2,15 +2,13 @@
 //  main.c
 //  14指针为什么要分类型
 //
-//  Created by Shannon MYang on 2019/12/05.
+//  Created by Shannon MYang on 2019/12/5.
 //  Copyright © 2019 Shannon MYang. All rights reserved.
 //
 
 #include <stdio.h>
 
-
-
-int main(int argc, const char* argv[]) {
+int main(int argc, const char * argv[]) {
     /*
     char* cp;
     int* ip;
@@ -53,5 +51,5 @@ int main(int argc, const char* argv[]) {
     */
     char* p = &intValue;
     printf("%i \n", *p);
-    return 0; 
+    return 0;
 }

@@ -2,7 +2,7 @@
 //  main.c
 //  11指针练习2
 //
-//  Created by Shannon MYang on 2019/12/05.
+//  Created by Shannon MYang on 2019/12/5.
 //  Copyright © 2019 Shannon MYang. All rights reserved.
 //
 
@@ -11,7 +11,7 @@
 //int demo(int v1, int v2, int v3);
 int demo(int v1, int v2, int v3, int *p1, int *p2);
 
-int main(int argc, const char* argv[]) {
+int main(int argc, const char * argv[]) {
     // 要求：定义一个函数，传递三个值，返回这三个值的和、差、平均值；
     int a = 10;
     int b = 20;
@@ -27,7 +27,8 @@ int main(int argc, const char* argv[]) {
     // 我们想要的就是调用完函数之后，和差平均值对应的变量都被"修改"为对应的值；
     int res3 = demo(a, b, c, &res1, &res2);
     printf("和 = %i, 差 = %i, 平均值 = %i \n", res1, res2, res3);
-    return 0; 
+    return 0;
+    return 0;
 }
 
 int demo(int v1, int v2, int v3, int *p1, int *p2)

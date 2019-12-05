@@ -2,7 +2,7 @@
 //  main.c
 //  10指针练习1
 //
-//  Created by Shannon MYang on 2019/12/05.
+//  Created by Shannon MYang on 2019/12/5.
 //  Copyright © 2019 Shannon MYang. All rights reserved.
 //
 
@@ -17,7 +17,7 @@ void swap(int* v1, int* v2)
     *v2 = temp;
 }
 
-int main(int argc, const char* argv[]) {
+int main(int argc, const char * argv[]) {
     // 定义一个函数交换两个变量的值
     int a = 10;  // 0ffa13
     int b = 11;  // 0ffa9
@@ -31,5 +31,5 @@ int main(int argc, const char* argv[]) {
     
     swap(&a, &b);
     printf("交换后: a = %i, b = %i \n", a, b);
-    return 0; 
+    return 0;
 }
