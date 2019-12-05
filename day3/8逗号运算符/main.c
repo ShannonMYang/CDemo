@@ -18,7 +18,7 @@ int main(int argc, const char * argv[]) {
     printf("a = %i, b = %i, result = %i \n", a, b, result);
     
     // 只要是运算符，那么一定会有运算结果，逗号s运算符也不例外
-    // 逗号运算符的结果是 最后一个表达式的结果
+    // 逗号运算符的结果是：最后一个表达式的结果
     
     int c = 11;
     int d = 6;
