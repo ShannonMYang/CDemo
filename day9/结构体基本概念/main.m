@@ -48,7 +48,7 @@ int main(int argc, const char * argv[]) {
         struct Person p;
 //        注意：数组不能先定义，在进行一次性的初始化，所以下面的写法是错误的。
 //        p.name = "mnu";  // p.name = {'m', 'n', 'u', '\0'};
-//        可以使用 结构体变量名称 点语法 属性 的方式给结构体变量赋值
+//        可以使用 结构体变量名称.属性 的方式给结构体变量赋值
         p.name = "mnu";
         p.age = 18;
         p.height = 1.82;
