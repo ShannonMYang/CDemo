@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5F7C868D25384CF300734047 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F7C868C25384CF300734047 /* main.c */; };
 		5F7C869D2538505500734047 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F7C869C2538505500734047 /* main.c */; };
+		5F7C86AE25393FB600734047 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F7C86AD25393FB600734047 /* main.c */; };
 		5F9A03EE2521CE3A0085986D /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F9A03ED2521CE3A0085986D /* main.c */; };
 		5F9A03FC2521D6DA0085986D /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F9A03FB2521D6DA0085986D /* main.c */; };
 		5FB6FF49252097D800237CA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB6FF48252097D800237CA4 /* main.m */; };
@@ -26,6 +27,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		5F7C86982538505500734047 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		5F7C86A925393FB600734047 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -77,6 +87,8 @@
 		5F7C868C25384CF300734047 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		5F7C869A2538505500734047 /* 结构体类型的作用域 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "结构体类型的作用域"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F7C869C2538505500734047 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		5F7C86AB25393FB600734047 /* 指向结构体的指针 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "指向结构体的指针"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F7C86AD25393FB600734047 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		5F9A03EB2521CE3A0085986D /* 结构体的初始化 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "结构体的初始化"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F9A03ED2521CE3A0085986D /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		5F9A03F92521D6DA0085986D /* 结构体在内存中的存储细节 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "结构体在内存中的存储细节"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -96,6 +108,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		5F7C86972538505500734047 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F7C86A825393FB600734047 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -149,6 +168,14 @@
 			path = "结构体类型的作用域";
 			sourceTree = "<group>";
 		};
+		5F7C86AC25393FB600734047 /* 指向结构体的指针 */ = {
+			isa = PBXGroup;
+			children = (
+				5F7C86AD25393FB600734047 /* main.c */,
+			);
+			path = "指向结构体的指针";
+			sourceTree = "<group>";
+		};
 		5F9A03EC2521CE3A0085986D /* 结构体的初始化 */ = {
 			isa = PBXGroup;
 			children = (
@@ -182,6 +209,7 @@
 				5F9A03FA2521D6DA0085986D /* 结构体在内存中的存储细节 */,
 				5F7C868B25384CF300734047 /* 结构体的定义方式 */,
 				5F7C869B2538505500734047 /* 结构体类型的作用域 */,
+				5F7C86AC25393FB600734047 /* 指向结构体的指针 */,
 				B4B4A6FB238ED023000CBE8C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -195,6 +223,7 @@
 				5F9A03F92521D6DA0085986D /* 结构体在内存中的存储细节 */,
 				5F7C868A25384CF300734047 /* 结构体的定义方式 */,
 				5F7C869A2538505500734047 /* 结构体类型的作用域 */,
+				5F7C86AB25393FB600734047 /* 指向结构体的指针 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -242,6 +271,23 @@
 			name = "结构体类型的作用域";
 			productName = "结构体类型的作用域";
 			productReference = 5F7C869A2538505500734047 /* 结构体类型的作用域 */;
+			productType = "com.apple.product-type.tool";
+		};
+		5F7C86AA25393FB600734047 /* 指向结构体的指针 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F7C86B125393FB600734047 /* Build configuration list for PBXNativeTarget "指向结构体的指针" */;
+			buildPhases = (
+				5F7C86A725393FB600734047 /* Sources */,
+				5F7C86A825393FB600734047 /* Frameworks */,
+				5F7C86A925393FB600734047 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "指向结构体的指针";
+			productName = "指向结构体的指针";
+			productReference = 5F7C86AB25393FB600734047 /* 指向结构体的指针 */;
 			productType = "com.apple.product-type.tool";
 		};
 		5F9A03EA2521CE3A0085986D /* 结构体的初始化 */ = {
@@ -327,6 +373,9 @@
 					5F7C86992538505500734047 = {
 						CreatedOnToolsVersion = 12.0.1;
 					};
+					5F7C86AA25393FB600734047 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
 					5F9A03EA2521CE3A0085986D = {
 						CreatedOnToolsVersion = 12.0.1;
 					};
@@ -360,6 +409,7 @@
 				5F9A03F82521D6DA0085986D /* 结构体在内存中的存储细节 */,
 				5F7C868925384CF300734047 /* 结构体的定义方式 */,
 				5F7C86992538505500734047 /* 结构体类型的作用域 */,
+				5F7C86AA25393FB600734047 /* 指向结构体的指针 */,
 			);
 		};
 /* End PBXProject section */
@@ -378,6 +428,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F7C869D2538505500734047 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F7C86A725393FB600734047 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F7C86AE25393FB600734047 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,6 +502,24 @@
 			name = Debug;
 		};
 		5F7C86A02538505500734047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5F7C86AF25393FB600734047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5F7C86B025393FB600734047 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
@@ -648,6 +724,15 @@
 			buildConfigurations = (
 				5F7C869F2538505500734047 /* Debug */,
 				5F7C86A02538505500734047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F7C86B125393FB600734047 /* Build configuration list for PBXNativeTarget "指向结构体的指针" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F7C86AF25393FB600734047 /* Debug */,
+				5F7C86B025393FB600734047 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
